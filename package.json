@@ -1,0 +1,19 @@
+{
+  "name": "mail_bot",
+  "version": "1.0.0",
+  "description": "this makes ease in sending the mail to multiple users at a time ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "uttkarsh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
